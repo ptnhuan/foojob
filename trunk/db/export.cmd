@@ -1,0 +1,1 @@
+mysqldump -uroot -p foojob > foojob_new.sql

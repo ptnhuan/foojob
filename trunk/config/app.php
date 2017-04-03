@@ -177,6 +177,11 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        
+        /*
+         * Add my extension
+         */
+        LaravelAcl\Authentication\AuthenticationServiceProvider::class,
 
     ],
 
